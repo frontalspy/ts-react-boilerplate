@@ -2,10 +2,10 @@
   "compilerOptions": {
     "outDir": "./dist/",
     "noImplicitAny": true,
-    "module": "es6",
+    "module": "ES2022",
     "strict": true,
-    "target": "es5",
-    "jsx": "preserve",
+    "target": "ES2022",
+    "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",
     "lib": ["es6", "dom"],

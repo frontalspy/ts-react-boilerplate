@@ -1,11 +1,10 @@
 import React from "react";
 import { App } from "../App";
-import {render} from "@testing-library/react";
+import { render } from "@testing-library/react";
 
-describe("Shows Links", () => {
-  describe("when loading", () => {
-    it("should render LinkItem only", () => {
-      render(<App />);
-    });
+describe("Render", () => {
+  it("should render LinkItem only", () => {
+    const { getByText } = render(<App />);
+    expect(getByText("Welcome")).toBeInTheDocument();
   });
 });
