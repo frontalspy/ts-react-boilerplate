@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
     "noImplicitAny": true,
-    "module": "ES2022",
+    "module": "esnext",
     "strict": true,
-    "target": "ES2022",
+    "target": "esnext",
     "jsx": "react",
     "allowJs": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "lib": ["es6", "dom"],
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,

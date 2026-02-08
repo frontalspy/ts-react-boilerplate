@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles/normalize.css";
-import { AppContainer } from "./App.styles";
+import styles from "./App.module.css";
 
 export const App = () => {
   return (
-    <AppContainer>
+    <main className={styles["appContainer"]}>
       <h1>Welcome</h1>
-    </AppContainer>
+    </main>
   );
 };
