@@ -10,8 +10,8 @@
     "lib": ["es6", "dom"],
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-    "typeRoots": ["src/types", "node_modules/@types"],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": ["vitest/globals"]
   },
   "include": ["src"]
 }
