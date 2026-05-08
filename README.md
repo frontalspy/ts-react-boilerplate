@@ -1,6 +1,6 @@
 # Another Typescript React boilerplate
 
-Another one of these things, but its a bit more strict.
+Another one of these things, but its a bit more strict and much more simple.
 
 Includes `React`, `Typescript`, `vite` and `bioms`, and a basic `express` server for any backend action.
 
